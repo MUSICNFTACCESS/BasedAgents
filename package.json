@@ -4,6 +4,10 @@
   "description": "Based Agents project",
   "main": "server.js",
   "scripts": {
-    " "^4.17.1"
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
