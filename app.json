@@ -1,7 +1,7 @@
 {
-  "name": "basedagents",
+  "name": "beyondbased",
   "version": "1.0.0",
-  "description": "Based Agents project",
+  "description": "BeyondBased project",
   "main": "checkmic.js",
   "scripts": {
     "test": "mocha"
