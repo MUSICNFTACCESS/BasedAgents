@@ -34,8 +34,11 @@ app.get('/consultations/:id', (req, res) => {
   res.json(consultation);
 });
 
-// Add a new consultation
+// Add a new consultation with validation
 app.post('/consultations', (req, res) => {
+  if (!req.body.name || !req.body.description) {
+    return res.status(400).send('Name and description are required');
+  }
   const newConsultation = {
     id: consultations.length + 1,
     name: req.body.name,
