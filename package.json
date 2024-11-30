@@ -1,7 +1,7 @@
 {
-  "name": "basedagents",
+  "name": "Beyondbased",
   "version": "1.0.0",
-  "description": "Based Agents project",
+  "description": "BeyondBased Crypto Consulting Dapp. 1official.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
